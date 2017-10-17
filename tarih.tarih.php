@@ -19,7 +19,7 @@ echo "Mezun olmama $kacGun gün var <br>";
 ?>
 <?php
 $baslama = strtotime("17 10 2017");
-$bitis = strtotime("+6 weeks", $baslama);
+//$bitis = strtotime("+6 weeks", $baslama);
 
 while ($baslama < $enddate) {
   echo date("M d", $baslama) . "<br>";
